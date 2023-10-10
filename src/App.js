@@ -4,22 +4,26 @@ import Homepage from './components/Homepage';
 import NotFound from './components/NotFound';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import Destination from './pages/Destination';
-import Expedition from './pages/Expedition';
-import Review from './pages/Review';
-import FAQ from './pages/FAQ';
-import Timeline from './pages/Timeline';
+import AboutMe from './pages/AboutMe';
+import Skills from './pages/Skills';
+import Experience from './pages/Experience';
+import Projects from './pages/Projects';
+import Certifications from './pages/Certifications';
+import Contact from './pages/Contact';
+
+
 function App() {
   return (
     <Router >
       <Navbar/>
       <Routes>
         <Route path="/" element={<Homepage/>}/>
-        <Route path="/destination" element={<Destination/>}/>
-        <Route path="/expedition" element={<Expedition/>}/>
-        <Route path="/timeline" element={<Timeline/>}/>
-        <Route path="/reviews" element={<Review/>}/>
-        <Route path="/faq" element={<FAQ/>}/>
+        <Route path="/aboutme" element={<AboutMe/>}/>
+        <Route path="/skills" element={<Skills/>}/>
+        <Route path="/experience" element={<Experience/>}/>
+        <Route path="/projects" element={<Projects/>}/>
+        <Route path="/certifications" element={<Certifications/>}/>
+        <Route path="/contactme" element={<Contact/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
       <Footer/>

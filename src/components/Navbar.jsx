@@ -41,11 +41,49 @@ const Navbar = () => {
     }
   };
 
+  const links= [
+    {
+      id:1, 
+      url:'/', 
+      title:'Home', 
+    },
+    {
+      id:2, 
+      url:'/aboutme', 
+      title:'About Me', 
+    },
+    {
+      id:3, 
+      url:'/skills', 
+      title:'Skills', 
+    },
+    {
+      id:4, 
+      url:'/experience', 
+      title:'Experience', 
+    },
+    {
+      id:5, 
+      url:'/projects', 
+      title:'Projects', 
+    },
+    {
+      id:6, 
+      url:'/certifications', 
+      title:'Certifications', 
+    },
+    {
+      id:7, 
+      url:'/contactme', 
+      title:'Contact Me', 
+    },
+
+  ]
 
   return (
     <div className='w-full h-full dark'>
  <div className="w-10/12 m-auto dark flex flex-row justify-between items-center py-6 px-2 md:px-8">
-      <Link onClick={() => closeMenu()} className='z-30' to="/"> <div className="font-semibold text-2xl ">TRAVELY</div></Link>
+      <Link onClick={() => closeMenu()} className='z-30' to="/"> <div className="font-semibold text-2xl ">Ranjit Kalita</div></Link>
 
       {window.innerWidth <= 768 && (
         <div className="md:hidden z-30" onClick={() => handleMenu()}>
@@ -58,43 +96,17 @@ const Navbar = () => {
         <div className=" dark z-20 absolute w-full md:w-auto  left-0 top-0 pt-28 p-10 md:relative md:p-0">
           
           <ul className="flex flex-col gap-6 md:flex-row">
-            <Link to="/" onClick={() => closeMenu()}> 
-            <li className="font-medium border-b-transparent border-b-4 hover:border-b-4 hover:border-b-white transition-none">
-              Home
+          {links.map((link)=>( <Link key={link.id} to={link.url} onClick={() => closeMenu()}> 
+            <li className="py-1 font-medium text-sm border-b-transparent border-b-4 hover:border-b-4 hover:border-b-white transition">
+              {link.title}
             </li>
-            </Link>
-            <Link to="/destination" onClick={() => closeMenu()}> 
-            <li className="font-medium border-b-transparent border-b-4 hover:border-b-4 hover:border-b-white transition-none">
-              Destination
-            </li>
-            </Link>
-            <Link to="/expedition" onClick={() => closeMenu()}> 
-            <li className="font-medium border-b-transparent border-b-4 hover:border-b-4 hover:border-b-white transition-none">
-              Expedition
-            </li>
-            </Link>
-            <Link to="/timeline" onClick={() => closeMenu()}> 
-            <li className="font-medium border-b-transparent border-b-4 hover:border-b-4 hover:border-b-white transition-none">
-              Timeline
-            </li>
-            </Link>
-            <Link to="/reviews" onClick={() => closeMenu()}> 
-            <li className="font-medium border-b-transparent border-b-4 hover:border-b-4 hover:border-b-white transition-none">
-              Reviews
-            </li>
-            </Link>
-            <Link to="/faq" onClick={() => closeMenu()}> 
-            <li className="font-medium border-b-transparent border-b-4 hover:border-b-4 hover:border-b-white transition-none">
-              FAQ
-            </li>
-            </Link>
+            </Link>))}
+            
           </ul>
         </div>
       )}
 
-      <div className="hidden md:block">
-        <button className="bg-[#206244] px-4 py-3">Get Started</button>
-      </div>
+      
     </div>
     </div>
    
