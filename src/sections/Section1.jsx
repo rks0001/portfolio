@@ -4,7 +4,7 @@ import {LuFileDown} from 'react-icons/lu'
 
 const Section1 = () => {
   return (
-    <div className='dark w-full h-full flex items-center'>
+    <div className='dark w-full  min-h-[80vh] md:h-full flex items-center'>
         <div className='w-full md:w-10/12 h-full mx-auto px-10 py-10 md:py-20'>
             <div className='flex flex-col md:flex-row items-center '>
                 <div className='flex-1 flex-col justify-center mx-auto' >
