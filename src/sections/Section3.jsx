@@ -14,7 +14,9 @@ const Section3 = () => {
         <div className='w-full md:w-10/12 h-full mx-auto px-10 py-10 md:py-20'>
             <div className='flex flex-col md:flex-row items-center '>
                 <div className='md:flex-1 flex-col justify-center mx-auto'>
-                <div className='font-bold text-5xl pt-1'>Skills</div>
+                <div className="relative font-semibold text-[7vh] md:text-[9vh] leading-none pt-1 text-transparent bg-clip-text bg-cover bg-gradient-to-br from-purple-600 via-indigo-600 to-indigo-800 tracking-normal md:tracking-normal " style={{ backgroundImage: "linear-gradient(135deg, #6355d5 3%, #5429cf 40%, #491ad9 70%)" }}>
+  Skills
+</div>
                 <div className='font-normal text-sm pt-1'>These are my skills and this contains all the technologies
 and programming languages that I have learnt until now.
 I am constantly learning, therefore I may update

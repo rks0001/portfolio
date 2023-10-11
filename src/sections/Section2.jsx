@@ -12,9 +12,11 @@ const Section2 = () => {
             <div className='hidden  flex-1 md:flex items-center justify-center mx-auto px-10' style={{ userSelect: 'none' }}>
                     <img  className='w-120 h-120' src={dev} alt="logo1"/>
                 </div>
-                <div className='flex flex-col md:flex-row  items-center '>
+                <div className='flex flex-1 flex-col md:flex-row  items-center '>
                   <div>
-                  <div className='font-bold text-5xl pt-1' style={{ userSelect: 'none' }}>About Me</div>
+                  <div className="relative font-semibold text-[7vh] md:text-[9vh] leading-none pt-1 text-transparent bg-clip-text bg-cover bg-gradient-to-br from-purple-600 via-indigo-600 to-indigo-800 tracking-normal md:tracking-normal " style={{ backgroundImage: "linear-gradient(135deg, #6355d5 3%, #5429cf 40%, #491ad9 70%)" }}>
+  About Me
+</div>
                 <div className='font-medium text-sm pt-1' style={{ userSelect: 'none' }}>My name is Ranjit Kalita, I'm 22 years old, I am a CSE Graduate
 from Tezpur University. I like to use various technologies to build
 exciting projects.<br/><br/>

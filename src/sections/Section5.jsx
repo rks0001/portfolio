@@ -6,7 +6,9 @@ const Section5 = () => {
   return (
     <div className=' dark w-full h-full flex items-center'>
         <div className='w-full md:w-10/12 h-full mx-auto md:px-10 py-10 md:py-20'>
-        <div className='font-bold text-5xl pt-1 px-10 md:px-0 md:flex md:justify-center'  style={{ userSelect: 'none' }}>Projects</div>
+        <div className="relative md:flex md:justify-center md:pb-4 px-10 md:px-0 font-semibold text-[7vh] md:text-[9vh] leading-none pt-1 text-transparent bg-clip-text bg-cover bg-gradient-to-br from-purple-600 via-indigo-600 to-indigo-800 tracking-normal md:tracking-normal " style={{ backgroundImage: "linear-gradient(135deg, #6355d5 3%, #5429cf 40%, #491ad9 70%)" }}>
+  Projects
+</div>
             <div className='flex justify-center'>
         
           
