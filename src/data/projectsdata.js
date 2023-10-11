@@ -74,19 +74,7 @@ const projectsdata = [
        
     },
 
-    {
-      _id: '6',
-      name: 'Workout Buddy ',
-      image: proimg,
-      description:
-        'This is an application to track all your workouts and customize them',
-        tool1: 'React',
-        tool2: 'Nodejs',
-        tool3: 'MongoDB',
 
-        linkone: '/',
-       
-    },
     
    
   ]

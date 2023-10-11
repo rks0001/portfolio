@@ -4,7 +4,7 @@ import {AiFillGithub} from 'react-icons/ai'
 
 const ProjectCard = ({name, image, description, tool1, tool2, tool3, linkone, linktwo}) => {
   return (
-    <div className='bg-[#1f1f1f] rounded-md px-4 py-2 w-full md:w-[30%]  my-4 '  >
+    <div className='bg-[#1f1f1f] rounded-md px-4 py-2 w-full md:w-[30%]  '  >
         <div className='font-bold text-lg pt-3' style={{ userSelect: 'none' }}>{name}</div>
         <div style={{ userSelect: 'none' }}>
         <img className="p-1" src={image} alt="proimage" />
