@@ -15,7 +15,7 @@ const Section1 = () => {
 
                 <div className='font-bold text-2xl pt-1' style={{ userSelect: 'none' }}>Frontend Developer</div>
                 <div className='font-semibold text-sm ' style={{ userSelect: 'none' }}>  &#123; javascript, reactjs, redux, nextjs &#125;</div>
-                <button className='bg-[#5429cf] py-3 px-6 rounded-md my-3 text-lg font-semibold flex items-center gap-2'>Resume <LuFileDown color='white'/></button>
+                <button className='bg-[#5429cf] py-3 px-6 rounded-md my-3 text-lg font-semibold flex items-center gap-2'><a className='flex items-center gap-2' href="https://drive.google.com/file/d/1FSBJxg9KT6jOSH8xbHuBc9jlI3hBLVbB/view?usp=sharing" target="_blank" rel="noreferrer">Resume <LuFileDown color='white'/></a></button>
                 
                 </div>
                 <div className='hidden  flex-1 md:flex items-center justify-center mx-auto px-10' style={{ userSelect: 'none' }}>

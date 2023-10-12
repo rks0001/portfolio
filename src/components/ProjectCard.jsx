@@ -9,7 +9,7 @@ const ProjectCard = ({name, image, description, tool1, tool2, tool3, linkone, li
         <div style={{ userSelect: 'none' }}>
         <img className="p-1" src={image} alt="proimage" />
         </div>
-        <div className='flex gap-1 pt-2' style={{ userSelect: 'none' }}>
+        <div className='flex flex-wrap gap-1 pt-2' style={{ userSelect: 'none' }}>
             {tool1 && (<div className='bg-[#121212] px-3 py-1 rounded-lg text-xs flex items-center'>{tool1}</div>)}
             {tool2 && (<div className='bg-[#121212] px-3 py-1 rounded-lg text-xs flex items-center'>{tool2}</div>)}
             {tool3 && (<div className='bg-[#121212] px-3 py-1 rounded-lg text-xs flex items-center'>{tool3}</div>)}
@@ -17,7 +17,7 @@ const ProjectCard = ({name, image, description, tool1, tool2, tool3, linkone, li
         </div>
         <p className='text-xs py-2' style={{ userSelect: 'none' }}>{description}</p>
         
-        <div className='flex gap-4 py-3  bottom-0 left-0'>
+        <div className='flex flex-wrap gap-4 py-3  bottom-0 left-0'>
         <a className="bg-[#5429cf] px-4 py-1 rounded-md text-sm font-medium flex gap-2 items-center" href={linkone} target='_blank' rel="noreferrer" ><GoLink size={16} color='white' /> Website</a>
         <a className="bg-[#5429cf] px-4 py-1 rounded-md text-sm font-medium flex gap-2 items-center" href={linktwo} target='_blank' rel="noreferrer"><AiFillGithub size={16} color='white' />Github</a>
         </div>

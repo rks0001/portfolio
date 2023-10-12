@@ -27,7 +27,8 @@ Currently I am trying to learn more about Blockchain and Web3.</div>
                
                <div className='flex gap-4'>
                <button className='bg-[#5429cf] py-3 px-6 rounded-md my-3 text-lg font-medium '> <a className='flex items-center gap-2' href="https://github.com/rks0001" target="_blank" rel="noreferrer">Github<AiFillGithub/></a> </button>
-               <button className='bg-[#5429cf] py-3 px-6 rounded-md my-3 text-lg font-medium flex items-center gap-2'>Resume<LuFileDown/></button>
+               <button className='bg-[#5429cf] py-3 px-6 rounded-md my-3 text-lg font-medium flex items-center gap-2'><a className='flex items-center gap-2' href="https://drive.google.com/file/d/1FSBJxg9KT6jOSH8xbHuBc9jlI3hBLVbB/view?usp=sharing" target="_blank" rel="noreferrer">Resume<LuFileDown/></a></button>
+               
                </div>
             
                 
