@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import {RxCross1} from 'react-icons/rx'
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
@@ -83,13 +84,17 @@ const Navbar = () => {
   return (
     <div className='w-full h-full dark'>
  <div className="w-10/12 m-auto dark flex flex-row justify-between items-center py-6 px-2 md:px-8">
-      <Link onClick={() => closeMenu()} className='z-30' to="/"> <div className="font-semibold text-2xl ">Ranjit Kalita</div></Link>
+      <Link onClick={() => closeMenu()} className='z-30' to="/"> <div className="font-semibold text-2xl " style={{ userSelect: 'none' }}>Ranjit Kalita</div></Link>
 
       {window.innerWidth <= 768 && (
-        <div className="md:hidden z-30" onClick={() => handleMenu()}>
-          <GiHamburgerMenu style={{ fontSize: '24px' }} />
-        </div>
-      )}
+  <div className="md:hidden z-30" onClick={() => handleMenu()}>
+    {menu ? (
+      <RxCross1 style={{ fontSize: '24px' }} />
+    ) : (
+      <GiHamburgerMenu style={{ fontSize: '24px' }} />
+    )}
+  </div>
+)}
 
       {/* Conditional rendering based on the menu state */}
       {menu && (

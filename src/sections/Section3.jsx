@@ -28,7 +28,7 @@ this section more often.</div>
                 </div>
                 <div className='md:flex-1 flex flex-col mx-auto md:px-10' >
                     <div className='flex md:justify-normal justify-evenly flex-wrap py-4 md:py-0'>
-                    <SkillIcon icon={<AiFillHtml5 size={48} color='#5429cf' />} hoverText="HTML"/>
+                    <SkillIcon  icon={<AiFillHtml5 size={48} color='#5429cf' />} hoverText="HTML"/>
                     <SkillIcon icon={<FaCss3Alt size={48} color='#5429cf'/>} hoverText="CSS"/>
                     <SkillIcon icon={<SiJavascript size={48} color='#5429cf'/>} hoverText="Javascript"/>
                     <SkillIcon icon={<SiTypescript size={48} color='#5429cf'/>} hoverText="Typescript"/>
