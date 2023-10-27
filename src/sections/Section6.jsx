@@ -16,17 +16,10 @@ const Section6 = () => {
             
 
 
-<div className='flex flex-wrap justify-center gap-4 pt-6'>
+<div className='flex flex-wrap justify-center  gap-4 pt-6'>
             {certidata.map((cert)=>(<CertiCard key={cert.id} name={cert.name} image={cert.image} description={cert.description} more={cert.more} />))}
             </div>
 
-          
-  
-
-           
-         
-            
-       
                
         </div>
     </div>

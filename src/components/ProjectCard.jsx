@@ -28,6 +28,7 @@ const ProjectCard = ({ name, image, description, tool1, tool2, tool3, linkone, l
       </p>
       <div className='mt-auto'>
         <div className='flex justify-between py-3'>
+          <div className='flex gap-4'>
           <a
             className="bg-[#5429cf] px-4 py-1 rounded-md text-sm font-medium flex gap-2 items-center"
             href={linkone}
@@ -44,6 +45,8 @@ const ProjectCard = ({ name, image, description, tool1, tool2, tool3, linkone, l
           >
             <AiFillGithub size={16} color='white' /> Github
           </a>
+          </div>
+         
         </div>
       </div>
     </div>
