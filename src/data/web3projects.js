@@ -7,9 +7,9 @@ const web3projects = [
         image: proimg,
         description:
           'Adding the functionality to connect as an account',
-          tool_1: 'React',
-          tool_2: 'ethers',
-          tool_3: 'null',
+          tool1: 'React',
+          tool2: 'ethers',
+
           linkone: 'https://connectyourwallet.netlify.app/',
           linktwo:'https://github.com/rks0001/connectwallet',
           

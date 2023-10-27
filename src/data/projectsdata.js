@@ -3,6 +3,7 @@ import proimg from '../images/pro1.png'
 import proimg3 from '../images/pro3.png'
 import proimg4 from '../images/pro4.png'
 import proimg5 from '../images/pro6.png'
+import proimg6 from '../images/react-roadmap.png'
 const projectsdata = [
     {
       _id: '1',
@@ -18,6 +19,24 @@ const projectsdata = [
     },
     {
       _id: '2',
+      name: 'React Roadmap 0 to 100 ',
+      image: proimg6,
+      description:
+        'Full 0 to 100 learning guide for react with documentation, interview prep, useful github repos, video library.',
+        tool1: 'React',
+        tool2: 'tailwind',
+        tool3: 'redux',
+        tool4: 'Firebase',
+    
+        
+        linkone:'https://react-rodmap.netlify.app/',
+      linktwo:'https://github.com/rks0001/react-roadmap',
+        
+
+        
+    },
+    {
+      _id: '3',
       name: 'Netflix-clone ',
       image: proimg,
       description:
@@ -33,7 +52,7 @@ const projectsdata = [
         
     },
     {
-      _id: '3',
+      _id: '4',
       name: 'Youtube-clone ',
       image: proimg3,
       description:
@@ -47,7 +66,7 @@ const projectsdata = [
  
     
     {
-      _id: '4',
+      _id: '5',
       name: 'Expense Tracker',
       image: proimg4,
       description:
@@ -59,7 +78,7 @@ const projectsdata = [
       
     },
     {
-      _id: '5',
+      _id: '6',
       name: 'Weather Forecast App ',
       image: proimg5,
       description:
