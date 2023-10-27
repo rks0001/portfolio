@@ -14,7 +14,7 @@ const ProjectsTab = () => {
 
     return (
         <div className="px-10">
-            <div className="flex gap-5 py-3 ">
+            <div className="flex flex-wrap gap-5 py-3 ">
                 <div
                     onClick={() => handleTabClick(1)}
                     className={`cursor-pointer ${activeTab === 1 ? 'border-b-2 border-white bg-[#1f1f1f]' : ''} p-2 rounded-lg`}
