@@ -18,7 +18,7 @@ const Section1 = () => {
                 <button className='bg-[#5429cf] py-3 px-6 rounded-md my-3 text-lg font-semibold flex items-center gap-2'><a className='flex items-center gap-2' href="https://drive.google.com/file/d/1OPgXeNpo8ccqtX8iK3fn6kEhmcn670rI/view?usp=sharing" target="_blank" rel="noreferrer">Resume <LuFileDown color='white'/></a></button>
                 
                 </div>
-                <div className='hidden  flex-1 md:flex items-center justify-center mx-auto px-10' style={{ userSelect: 'none' }}>
+                <div className='hidden  flex-1 md:flex  items-center justify-center mx-auto px-10' style={{ userSelect: 'none' }}>
                     <img  className='w-120 h-120' src={logo1} alt="logo1"/>
                 </div>
             </div>
